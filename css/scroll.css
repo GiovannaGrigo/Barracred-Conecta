@@ -1,0 +1,30 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.content {
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.reveal {
+    opacity: 0;  /* Inicia invisível */
+    transform: translateY(50px);  /* Desloca o texto para baixo */
+    transition: opacity 1s ease, transform 1s ease; /* Animação de transição */
+    margin: 20px 0;
+}
+
+/* Quando o elemento for revelado, a classe "visible" será adicionada */
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
