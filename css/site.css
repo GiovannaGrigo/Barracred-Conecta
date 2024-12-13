@@ -99,7 +99,7 @@ h1 {
   border-radius: 8px; 
 }
 
-.professores{
+.container-professores{
   text-align: center;
   padding: 20px;
   color: #fff;
@@ -107,21 +107,109 @@ h1 {
 
 }
 
-.professores .imagem {
+.container-professores .imagem {
   display: inline-block; /* Faz com que as imagens fiquem lado a lado */
   margin: 10px; /* Espaçamento entre as imagens */
 }
 
-.professores .imagem img {
+.container-professores .imagem img {
   width: 150px; /* Defina o tamanho das imagens conforme necessário */
   height: auto;
-  border-radius: 10px; /* Optional: arredonda as bordas das imagens */
+  border-radius: 8px; /* Optional: arredonda as bordas das imagens */
 }
 
-.professores .imagem b {
+.container-professores .imagem b {
   display: block;
   margin-top: 5px; /* Espaço entre a imagem e o nome */
   font-size: 16px; /* Tamanho da fonte do nome */
   font-weight: normal;
 }
 
+.container-objetivos {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container-turmas h1 {
+  text-align: center; /* Centraliza o título */
+  width: 100%; /* Garante que o título ocupe toda a largura do contêiner */
+  margin-bottom: 30px; /* Espaçamento abaixo do título */
+  font-size: 2.5em; /* Tamanho do título */
+  color: #fff;
+  margin: 10px;
+  margin-top: 70px;
+  
+}
+
+.container-turmas {
+  text-align: center; /* Centraliza os itens dentro do contêiner */
+}
+
+.col{
+  margin-left: px;
+  min-height: 350px; /* Ajuste conforme necessário para garantir que os cards não fiquem muito pequenos */
+}
+
+
+.card {
+  height: 100%; /* Faz com que o card ocupe toda a altura da coluna */
+  display: flex;
+  flex-direction: column; /* Alinha o conteúdo dentro do card de cima para baixo */
+  margin: 30px ;
+  margin-left: 45px;
+}
+
+.card-body {
+  flex-grow: 1; /* Faz com que a área do corpo do card se expanda para preencher o espaço disponível */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Isso distribui o conteúdo dentro do card de forma uniforme */
+}
+
+
+.card-img-top {
+  height: 200px; /* Ajuste a altura da imagem conforme necessário */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+}
+.efeito-frase, .efeito-objetivos, .efeito-estrutura, .efeito-turmas1, .efeito-turmas2, .efeitos-turmas3{
+  visibility: hidden;
+}
+
+a.nav-link.active{
+  color: #fff !important;
+  font-weight: bolder;
+}
+p.fim{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: bolder;
+  
+}
+span{
+  color: #52e232;
+  font-weight: bolder;
+  margin-left: 10PX;
+}
+
+p.fim-redes{
+  text-align: center;
+  font-size: 30px;
+}
+p.contatos{
+  text-align: center;
+  font-size: 20px;
+}
+i{
+  font-size: 30px;
+  color: #52e232;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.img-fluid{
+  width: 200px;
+  height: 100px;
+}
