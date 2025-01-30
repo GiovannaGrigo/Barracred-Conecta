@@ -212,3 +212,15 @@ i{
 .img-fluid{
   width: 200px;
 }
+.navbar .nav-link{
+  color: black !important;
+}
+
+.navbar .nav-link.active {
+  color: black !important;
+}
+
+.container-objetivos img {
+  width: 500px;
+  max-width: 100%;
+}
