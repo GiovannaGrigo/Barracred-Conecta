@@ -224,3 +224,17 @@ i{
   width: 500px;
   max-width: 100%;
 }
+
+.container-professores .imagem img {
+  width: 150px; 
+  height: 150px;
+  object-fit: cover;
+}
+
+.container-turmas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
