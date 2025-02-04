@@ -1,0 +1,98 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(-45deg, #1B3F34, #508843, #2E6141, #328B9C, #fff);
+    background-attachment: fixed;
+    
+  }
+
+.img-turma1 {
+    width: 1200px;
+    border-radius: 2%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fontSize{
+    font-size: 20px;
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+
+.alunos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.carousel {
+    max-width: 70%;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-image {
+  width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+  height: 600px; /* Defina uma altura fixa ou use outra unidade (como vh) conforme necessário */
+  object-fit: cover; /* Faz a imagem cobrir o espaço disponível, mantendo a proporção */
+}
+
+#carouselExample{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.carrossel-container{
+    display: inline-block;
+    width: 100%;
+}
+
+.tituloFotos{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.carousel-item img{
+    border-radius: 15px;
+}
+
+a.nav-link.active{
+    color: #fff !important;
+    font-weight: bolder;
+  }
+  p.fim{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: bolder;
+    
+  }
+  span{
+    color: #52e232;
+    font-weight: bolder;
+    margin-left: 10PX;
+  }
+  
+  p.fim-redes{
+    text-align: center;
+    font-size: 30px;
+  }
+  p.contatos{
+    text-align: center;
+    font-size: 20px;
+  }
+  i{
+    font-size: 30px;
+    color: #52e232;
+    text-align: center;
+    margin-left: 40px;
+  }
