@@ -1,7 +1,7 @@
 html, body{
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(-45deg, #1B3F34, #508843, #2E6141, #328B9C, #fff);
+  background-image: linear-gradient(-45deg, #1B3F34, #508843, #2E6141, #328B9C, #2ac53e);
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -213,11 +213,11 @@ i{
   width: 200px;
 }
 .navbar .nav-link{
-  color: black !important;
+  color: white !important;
 }
 
 .navbar .nav-link.active {
-  color: black !important;
+  color: white !important;
 }
 
 .container-objetivos img {
